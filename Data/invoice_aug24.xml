@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
+    <InvoiceNumber>       
+        <cbc:ID>AICC/LTHSC/JAF/INVOICE-024</cbc:ID>
+        <cbc:IssueDate>13-12-2024</cbc:IssueDate>
+        <cbc:LOANo>LTHSC-LOA-JGCP-22-14</cbc:LOANo>
+        <cbc:PONo>74000-50204/RTT</cbc:PONo>
+        <cbc:ContractNO>NA</cbc:ContractNO>
+        <cbc:InvoiceTypeCode name="0100000">388</cbc:InvoiceTypeCode>
+        <cbc:DocumentCurrencyCode listAgencyID="6" listID="ISO 4217 Alpha">SAR</cbc:DocumentCurrencyCode>
+        <cbc:TaxCurrencyCode listAgencyID="6" listID="ISO 4217 Alpha">SAR</cbc:TaxCurrencyCode>
+         
+    </InvoiceNumber>
+    
+    <InvoiceDate>
+        <IssueDate>13-12-2024</IssueDate>
+        <InvoiceReference>
+         CIVIL WORKS FOR GCP 01 &amp; PWIS (الأعمال المدنية لـ GCP 01 وPWIS)      
+      </InvoiceReference>
+    </InvoiceDate>
+
+    <cbc:Seller>
+        <cbc:Name>Asloob International Contracting Company  | شركة اصلوب الدولية للمقاولات</cbc:Name>
+        <cbc:BuildingNo></cbc:BuildingNo>       
+        <cbc:CRNo>1010503330 |  ١٠١٠٥٠٣٣٣٠ </cbc:CRNo>
+        <cbc:StreetName></cbc:StreetName>
+        <cbc:District></cbc:District>
+        <cbc:City>Riyadh </cbc:City>
+        <cbc:Country>KSA</cbc:Country>
+        <cbc:PostalCode>12313</cbc:PostalCode>
+        <cbc:AdditionalNo>P.O. Box 8460</cbc:AdditionalNo>
+        <cbc:VATNumber>310322327400003</cbc:VATNumber>
+     </cbc:Seller>
+
+    <cac:Buyer>
+        <cbc:Name>L &amp; T Hydrocarbon Saudi Company | شركة ال اند تي هيدروكربون السعودية  </cbc:Name>
+        <cbc:BuildingNo>6883</cbc:BuildingNo>
+        <cbc:CRNo>2050055625 | ٢٠٥٠٠٥٥٦٢٥ </cbc:CRNo>
+        <cbc:StreetName >King Abdulaziz Road</cbc:StreetName>
+        <cbc:District>Al- Khobar Shamalia</cbc:District>
+        <cbc:City>Al- Khobar </cbc:City>
+        <cbc:Country>KSA</cbc:Country>
+        <cbc:PostalCode>34428</cbc:PostalCode>
+        <cbc:AdditionalNo>2nd Floor</cbc:AdditionalNo>
+        <cbc:VATNumber>300464605700003 | ٣٠٠٤ ٤٦ ٠ ۵ ۷ ٠ ٠ ٠ ٠ ٣  </cbc:VATNumber>
+     </cac:Buyer>
+
+    <cac:LineItems>
+        <cbc:Sl.No>1.0</cbc:Sl.No>
+        <cbc:NatureOfGoodsOrServices>
+         CIVIL WORKS FOR GCP 01 &amp; PWIS (الأعمال المدنية لـ GCP 01 وPWIS)
+         </cbc:NatureOfGoodsOrServices>
+        <cbc:Quantity>LS  (إل إس)</cbc:Quantity>
+        <cbc:Unit>01 (واحد)</cbc:Unit>
+        <cbc:UnitPrice>  514,539.35 	 </cbc:UnitPrice>
+        <cbc:TaxableAmount>  514,539.35 	</cbc:TaxableAmount>
+        <cbc:TaxRate>15.00%</cbc:TaxRate>
+        <cbc:TaxAmount>   77,180.90 	</cbc:TaxAmount>
+        <cbc:TotalWithVAT>  591,720.25 	</cbc:TotalWithVAT>
+        <cbc:ItemSubtotal> </cbc:ItemSubtotal>
+    </cac:LineItems>
+ 
+   <cac:InvoiceLine>
+        <cbc:ID>1.0</cbc:ID>
+        <cbc:InvoicedQuantity >LS  (إل إس)</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="SAR">   514,539.35  </cbc:LineExtensionAmount>
+        <cac:TaxTotal>
+           <cbc:TaxAmount currencyID="SAR">   77,180.90   </cbc:TaxAmount>
+           <cbc:RoundingAmount currencyID="SAR"> </cbc:RoundingAmount>
+        </cac:TaxTotal>
+        <cac:Item>
+           <cbc:Name>
+             Civil Works for Jafurah Gas Compression Plants - 01 (GCP-1) Work for the Month of August 2024 as Per the Attached Certified Work Summary (الأعمال المدنية لمحطات ضغط الغاز في الجافورة - 01 (GCP-1) أعمال شهر أغسطس 2024 حسب ملخص العمل المعتمد المرفق)				
+          </cbc:Name>
+           <cac:ClassifiedTaxCategory>
+              <cbc:ID>S</cbc:ID>
+              <cbc:Percent>15.0</cbc:Percent>
+              <cac:TaxScheme>
+                 <cbc:ID>VAT</cbc:ID>
+              </cac:TaxScheme>
+           </cac:ClassifiedTaxCategory>
+        </cac:Item>
+        <cac:Price>
+           <cbc:PriceAmount currencyID="SAR">  514,539.35 </cbc:PriceAmount>
+           <cbc:BaseQuantity unitCode="EA">LS  (إل إس)</cbc:BaseQuantity>
+           <cac:AllowanceCharge>
+              <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+              <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
+              <cbc:Amount currencyID="SAR">0.000000000</cbc:Amount>
+              <cbc:BaseAmount currencyID="SAR"> 514,539.35 </cbc:BaseAmount>
+           </cac:AllowanceCharge>
+        </cac:Price>
+   </cac:InvoiceLine>
+
+     <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SAR">  514,539.35 </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR">  514,539.35 </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR"> 591,720.25</cbc:TaxInclusiveAmount>
+        <cbc:AllowanceTotalAmount currencyID="SAR">0.00</cbc:AllowanceTotalAmount>
+        <cbc:ChargeTotalAmount currencyID="SAR">0.00</cbc:ChargeTotalAmount>
+        <cbc:PrepaidAmount currencyID="SAR">0.00</cbc:PrepaidAmount>
+        <cbc:PayableRoundingAmount currencyID="SAR">0.00</cbc:PayableRoundingAmount>
+        <cbc:RetentionRecovery currencyID="SAR">  51,453.94  </cbc:RetentionRecovery>
+        <cbc:PayableAmount  currencyID="SAR"> 540,266.32  </cbc:PayableAmount>
+     </cac:LegalMonetaryTotal>
+    
+    <cac:Bank>
+        <cbc:Account>814015525001 | ٨١٤٠١٥٥٢٥٠٠١ </cbc:Account>
+        <cbc:Name>SA SABB | (سا ساب)</cbc:Name>
+        <cbc:City >KSA</cbc:City>
+        <cbc:BeneficiaryName >ASLOOB INTERNATIONAL CONTRACTING COMPANY | شركة اصلوب الدولية للمقاولات</cbc:BeneficiaryName>
+        <cbc:IBANNo>SA6345 000 000 814015525001 | س ٦٣٤٥٠٠٠٠٠٠٨١٤٠١٥٢٥٠٠١</cbc:IBANNo>
+    </cac:Bank>
+
+    <Description>This is computer generated invoice and do not require any stamp or signature.</Description>
+</Invoice>

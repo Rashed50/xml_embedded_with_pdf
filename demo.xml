@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+    <InvoiceNumber>AICC/LTHSC/JAF/INVOICE-023</InvoiceNumber>
+    <InvoiceDate>2024-07-10</InvoiceDate>
+    <From>
+        <fr:Company>Asloob International Contracting Company</fr:Company>
+        <fr:VATNumber>310322327400003</fr:VATNumber>
+        <fr:CRNumber>1010503330</fr:CRNumber>
+        <fr:Address>P.O. Box 8460, Riyadh 12313</fr:Address>
+    </From>
+    <To>
+        <to:Company>L &amp; T Hydrocarbon Saudi Company</to:Company>
+        <to:VATNumber>300464605700003</to:VATNumber>
+        <to:CRNumber>2050055625</to:CRNumber>
+        <to:Address>2nd Floor, Building No. 6883, King Abdulaziz Road, Al Khobar Al Shamalia, Al Khobar, KSA – 34428, 2492</to:Address>
+    </To>
+    <Details>
+        <ProjectName>Civil Works for Jafurah Gas Compression Plants - 01 (GCP-1)</ProjectName>
+        <Description>Work for the Month of July 2024</Description>
+        <SubTotal>655568.33</SubTotal>
+        <VAT>
+            <Rate>15%</Rate>
+            <Amount>98335.25</Amount>
+        </VAT>
+        <TotalIncludingVAT>753903.58</TotalIncludingVAT>
+        <Retention>
+            <Rate>10%</Rate>
+            <Amount>65556.83</Amount>
+        </Retention>
+        <NetReceivableIncludingVAT>688346.75</NetReceivableIncludingVAT>
+    </Details>
+    <BankDetails>
+        <BankName>SA SABB</BankName>
+        <AccountNumber>814015525001</AccountNumber>
+        <IBAN>SA6345000000814015525001</IBAN>
+        <Beneficiary>ASLOOB INTERNATIONAL CONTRACTING COMPANY</Beneficiary>
+    </BankDetails>
+    <AmountInWords>Saudi Riyals Six Hundred Eighty Eight Thousand Three Hundred Forty Six and Halala Seventy Five only</AmountInWords>
+</Invoice>
