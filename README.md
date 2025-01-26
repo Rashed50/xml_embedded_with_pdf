@@ -17,7 +17,7 @@ So, XML invoicing ensures that the data is structured and can be easily processe
 
 By using XML invoicing, businesses can easily send and receive invoices electronically without worrying about compatibility issues.
 
-![alt text](https://github.com/[Rashed50]/[xml_embedded_with_pdf]/blob/[main]/xmlinvoice.jpg?raw=true)
+![alt text](https://github.com/[Rashed50]/[xml_embedded_with_pdf]/[main]/xmlinvoice.jpg?raw=true)
 
 
 ### What is e-invoicing?
