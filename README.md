@@ -1,6 +1,6 @@
 ## This is django project to embaded xml formatted information within existing pdf file. First create xml formatted  file and then write that xml file with the existing pdf file and generate new pdf file.
 
-An XML invoice is an e-invoice sent as an XML file - a structured file format that is platformed-independent and readable by humans and machines.
+#### An XML invoice is an e-invoice sent as an XML file - a structured file format that is platformed-independent and readable by humans and machines.
 
 Invoicing is an essential process for any business. It helps keep track of money owed and paid and records the transactions for future reference.
 
@@ -35,10 +35,12 @@ The invoices are usually human-readable but not machine-readable (i.e., a comput
 
 UDT invoicing is often less reliable and secure than SDT, as it can be difficult to exchange data between different systems. Examples include:
 
-PDF invoicing: PDF is a common format for sending and receiving documents electronically. It is a popular choice for e-invoicing because it is easy to use and compatible.
-Email Invoicing: Email invoicing is the process of sending and receiving invoices via email. It is the most common, simple, and cost-effective method of e-invoicing.
+#### PDF invoicing: 
+PDF is a common format for sending and receiving documents electronically. It is a popular choice for e-invoicing because it is easy to use and compatible.
+#### Email Invoicing:
+Email invoicing is the process of sending and receiving invoices via email. It is the most common, simple, and cost-effective method of e-invoicing.
 Word Format: Word format is a Microsoft Word document that you can use to send and receive invoices electronically.
-Hybrid Invoice
+### Hybrid Invoice
 Hybrid invoicing is a method of e-invoicing that uses a combination of different formats, such as XML and EDIFACT, or having a PDF invoice with XML data embedded into it (e.g., ZUGFeRD).
 
 In such a case, all the invoice data in XML format must be available in PDF format.
@@ -50,7 +52,7 @@ The purpose of XML e-invoicing is to provide a standard way for businesses to se
 
 By using XML, companies can avoid the hassle of dealing with compatibility issues and can easily share invoicing data between different applications and systems.
 
-Specific reasons why most businesses use XML e-invoicing include the following:
+#### Specific reasons why most businesses use XML e-invoicing include the following:
 
 #### 1. Readability
 XML is a standard format where programs can automatically read the values in the invoice fields. The program can then process the invoice, e.g., verification and other tasks.
