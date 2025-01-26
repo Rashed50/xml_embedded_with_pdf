@@ -47,9 +47,9 @@
     <cac:InvoiceLine>
         <cbc:ID>1.0</cbc:ID>
         <cbc:InvoicedQuantity >LS  (إل إس)</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="SAR"> 339,625.94 </cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="SAR"> 339,591.86 </cbc:LineExtensionAmount>
         <cac:TaxTotal>
-           <cbc:TaxAmount currencyID="SAR">   50,943.89 	 </cbc:TaxAmount>
+           <cbc:TaxAmount currencyID="SAR">   50,938.78 </cbc:TaxAmount>
            <cbc:RoundingAmount currencyID="SAR">0.0</cbc:RoundingAmount>
         </cac:TaxTotal>
         <cac:Item>
@@ -66,27 +66,27 @@
            </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-           <cbc:PriceAmount currencyID="SAR"> 339,625.94 </cbc:PriceAmount>
+           <cbc:PriceAmount currencyID="SAR"> 339,591.86 </cbc:PriceAmount>
            <cbc:BaseQuantity unitCode="EA">LS  (إل إس)</cbc:BaseQuantity>
            <cac:AllowanceCharge>
               <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
               <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
               <cbc:Amount currencyID="SAR">0.000000000</cbc:Amount>
-              <cbc:BaseAmount currencyID="SAR">339,625.94</cbc:BaseAmount>
+              <cbc:BaseAmount currencyID="SAR">339,591.86</cbc:BaseAmount>
            </cac:AllowanceCharge>
         </cac:Price>
      </cac:InvoiceLine>
 
      <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="SAR">339,625.94</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="SAR"> 339,625.94	</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="SAR">   390,569.83 	 </cbc:TaxInclusiveAmount>
+        <cbc:LineExtensionAmount currencyID="SAR"> 339,591.86   </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR"> 339,591.86	</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR">    390,530.64  </cbc:TaxInclusiveAmount>
         <cbc:AllowanceTotalAmount currencyID="SAR">0.00</cbc:AllowanceTotalAmount>
         <cbc:ChargeTotalAmount currencyID="SAR">0.00</cbc:ChargeTotalAmount>
         <cbc:PrepaidAmount currencyID="SAR">0.00</cbc:PrepaidAmount>
-        <cbc:PayableRoundingAmount currencyID="SAR">  390,569.83 	</cbc:PayableRoundingAmount>
+        <cbc:PayableRoundingAmount currencyID="SAR">   390,530.64 	 	</cbc:PayableRoundingAmount>
         <cbc:RetentionRecovery currencyID="SAR">0.00</cbc:RetentionRecovery>
-        <cbc:PayableAmount  currencyID="SAR">   390,569.83 	 	</cbc:PayableAmount>
+        <cbc:PayableAmount  currencyID="SAR">    390,530.64 	</cbc:PayableAmount>
      </cac:LegalMonetaryTotal>
     
 

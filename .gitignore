@@ -13,6 +13,7 @@ __pycache__/
 
 # Virtual environments
 env/
+xmvnv/
 venv/
 ENV/
 .venv/
