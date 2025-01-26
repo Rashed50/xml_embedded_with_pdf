@@ -16,10 +16,10 @@ An XML file is a structured file format designed to be platform-independent and 
 So, XML invoicing ensures that the data is structured and can be easily processed by computers. It also allows you to share information between different applications and systems easily.
 
 By using XML invoicing, businesses can easily send and receive invoices electronically without worrying about compatibility issues.
-
-![alt text](https://github.com/[Rashed50]/[xml_embedded_with_pdf]/[main]/xmlinvoice.jpg?raw=true)
+ 
 
 # sampleinvoice
+![Image](https://github.com/user-attachments/assets/8364b7d2-d096-447f-ab38-7cd33d4cff0b)
 
 ### What is e-invoicing?
 E-invoicing (or electronic invoicing) is the process of sending and receiving invoices electronically rather than through the mail.
