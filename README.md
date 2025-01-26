@@ -19,6 +19,7 @@ By using XML invoicing, businesses can easily send and receive invoices electron
 
 ![alt text](https://github.com/[Rashed50]/[xml_embedded_with_pdf]/[main]/xmlinvoice.jpg?raw=true)
 
+# sampleinvoice
 
 ### What is e-invoicing?
 E-invoicing (or electronic invoicing) is the process of sending and receiving invoices electronically rather than through the mail.
