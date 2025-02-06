@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
-   <InvoiceNumber>       
-        <cbc:ID> ABCC/LTHSC/JAF/PH-2/GCP4/MP/INVOICE-010 </cbc:ID>
+    <InvoiceNumber>       
+        <cbc:ID> ABCC/LTHSC/JAF/PH-2/GCP1/MP/INVOICE-010  </cbc:ID>
         <cbc:IssueDate>04-02-2025</cbc:IssueDate>
         <cbc:LOANo></cbc:LOANo>
         <cbc:PONo>7400061929</cbc:PONo>
@@ -10,15 +10,15 @@
         <cbc:DocumentCurrencyCode listAgencyID="6" listID="ISO 4217 Alpha">SAR</cbc:DocumentCurrencyCode>
         <cbc:TaxCurrencyCode listAgencyID="6" listID="ISO 4217 Alpha">SAR</cbc:TaxCurrencyCode>
          
-   </InvoiceNumber>
+    </InvoiceNumber>
     
-   <InvoiceDate>
+    <InvoiceDate>
         <IssueDate>06-01-2025</IssueDate>
         <InvoiceReference>
-            MANPOWER SUPPLY FOR GCP 04 (توريد القوى العاملة لـ GCP 04)</InvoiceReference>
-   </InvoiceDate>
+            MANPOWER SUPPLY FOR GCP 01 (توريد القوى العاملة لـ GCP 01)</InvoiceReference>
+    </InvoiceDate>
 
-   <cbc:Seller>
+    <cbc:Seller>
         <cbc:Name>Asloob Bedaa Contracting Company  | شركة أصلوب بدعة للمقاولات</cbc:Name>
         <cbc:BuildingNo></cbc:BuildingNo>       
         <cbc:CRNo>1010647321 | ١٠١٠٦٤٧٣٢١</cbc:CRNo>
@@ -29,9 +29,9 @@
         <cbc:PostalCode>12611</cbc:PostalCode>
         <cbc:AdditionalNo>P.O.Box 4915</cbc:AdditionalNo>
         <cbc:VATNumber>311244907100003</cbc:VATNumber>
-   </cbc:Seller>
+     </cbc:Seller>
 
-   <cac:Buyer>
+    <cac:Buyer>
         <cbc:Name>L &amp; T Hydrocarbon Saudi Company | شركة ال اند تي هيدروكربون السعودية  </cbc:Name>
         <cbc:BuildingNo>6883</cbc:BuildingNo>
         <cbc:CRNo>2050055625 | ٢٠٥٠٠٥٥٦٢٥ </cbc:CRNo>
@@ -42,20 +42,19 @@
         <cbc:PostalCode>34428</cbc:PostalCode>
         <cbc:AdditionalNo>2nd Floor</cbc:AdditionalNo>
         <cbc:VATNumber>300464605700003 | ٣٠٠٤ ٤٦ ٠ ۵ ۷ ٠ ٠ ٠ ٠ ٣  </cbc:VATNumber>
-   </cac:Buyer>
+     </cac:Buyer>
  
-   <cac:InvoiceLine>
+    <cac:InvoiceLine>
         <cbc:ID>1.0</cbc:ID>
         <cbc:InvoicedQuantity >LS  (إل إس)</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="SAR">  95,999.74  	</cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="SAR"> 141,068.08 </cbc:LineExtensionAmount>
         <cac:TaxTotal>
-           <cbc:TaxAmount currencyID="SAR">  14,399.96		</cbc:TaxAmount>
-           <cbc:RoundingAmount currencyID="SAR">     95,999.74 	</cbc:RoundingAmount>
+           <cbc:TaxAmount currencyID="SAR">   21,160.21 </cbc:TaxAmount>
+           <cbc:RoundingAmount currencyID="SAR">0.0</cbc:RoundingAmount>
         </cac:TaxTotal>
         <cac:Item>
            <cbc:Name> 
-         Manpower Supply for Jafurah Gas Compression Plants - 01 (GCP-1) Work for the Month of December 2024 as Per the Attached Certified Work Summary (توريد القوى العاملة لمصانع ضغط الغاز في الجافورة - 01 (GCP-1) العمل لشهر ديسمبر 2024 وفقًا لملخص العمل المعتمد المرفق)				
-				
+Manpower Supply for Jafurah Gas Compression Plants - 01 (GCP-1) Work for the Month of January 2025 as Per the Attached Certified Work Summary (توريد القوى العاملة لمصانع ضغط الغاز في الجافورة - 01 (GCP-1) العمل لشهر يناير 2025 وفقًا لملخص العمل المعتمد المرفق)            
             </cbc:Name>
            <cac:ClassifiedTaxCategory>
               <cbc:ID>S</cbc:ID>
@@ -66,29 +65,30 @@
            </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-           <cbc:PriceAmount currencyID="SAR">  95,999.74   </cbc:PriceAmount>
+           <cbc:PriceAmount currencyID="SAR">  141,068.08 </cbc:PriceAmount>
            <cbc:BaseQuantity unitCode="EA">LS  (إل إس)</cbc:BaseQuantity>
            <cac:AllowanceCharge>
               <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
               <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
               <cbc:Amount currencyID="SAR">0.000000000</cbc:Amount>
-              <cbc:BaseAmount currencyID="SAR">  95,999.74   </cbc:BaseAmount>
+              <cbc:BaseAmount currencyID="SAR">  141,068.08 </cbc:BaseAmount>
            </cac:AllowanceCharge>
         </cac:Price>
-   </cac:InvoiceLine>
+     </cac:InvoiceLine>
 
-   <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="SAR">  95,999.74   </cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="SAR">  95,999.74    </cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="SAR">  110,399.74  </cbc:TaxInclusiveAmount>
+     <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="SAR">  141,068.08   </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR">  141,068.08	</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR">    162,228.29  </cbc:TaxInclusiveAmount>
         <cbc:AllowanceTotalAmount currencyID="SAR">0.00</cbc:AllowanceTotalAmount>
         <cbc:ChargeTotalAmount currencyID="SAR">0.00</cbc:ChargeTotalAmount>
         <cbc:PrepaidAmount currencyID="SAR">0.00</cbc:PrepaidAmount>
-        <cbc:PayableRoundingAmount currencyID="SAR">   110,399.74  </cbc:PayableRoundingAmount>
+        <cbc:PayableRoundingAmount currencyID="SAR">   162,228.29	 	</cbc:PayableRoundingAmount>
         <cbc:RetentionRecovery currencyID="SAR">0.00</cbc:RetentionRecovery>
-        <cbc:PayableAmount  currencyID="SAR">  110,399.74	</cbc:PayableAmount>
-   </cac:LegalMonetaryTotal>
+        <cbc:PayableAmount  currencyID="SAR">     162,228.29 	</cbc:PayableAmount>
+     </cac:LegalMonetaryTotal>
     
+
 
    <cac:Bank>
         <cbc:Account>11897865001 | ١١٨٩٧٨٦٥٠٠١   </cbc:Account>
@@ -98,5 +98,6 @@
         <cbc:IBANNo>SA3545 0000 000 11897865001 | (س ٣٥٤٥٠٠٠٠٠٠٠١١٨٩٧٨٦٥٠٠١)</cbc:IBANNo>
    </cac:Bank>
 
-   <Description>This is computer generated invoice and do not require any stamp or signature.</Description>
+
+    <Description>This is computer generated invoice and do not require any stamp or signature.</Description>
 </Invoice>
