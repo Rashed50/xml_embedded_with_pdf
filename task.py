@@ -24,7 +24,7 @@ if __name__ == '__main__':
     pdf_path = "invoice_with_embedded_xml.pdf"
 
     temp_pdf_path= "PDF/invoice.pdf"
-    xml_path = "Data/invoice_gcp1.xml"  
+    xml_path = "Data/invoice_gcp5.xml"  
 
     pdf_with_xml = PDFWithEmbeddedXML(pdf_path, temp_pdf_path, xml_path)
     pdf_with_xml.embed_xml_in_pdf()
