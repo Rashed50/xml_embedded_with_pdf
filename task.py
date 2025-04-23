@@ -17,14 +17,14 @@ class PDFWithEmbeddedXML:
         
         # Open the temporary PDF
         with fitz.open(self.temp_pdf_path) as doc:
-            doc.embfile_add("invoice.xml", xml_data) # xml file embaded with pdf
+            doc.embfile_add("invoice_xml.xml", xml_data) # xml file embaded with pdf
             doc.save(self.pdf_path)
 
 if __name__ == '__main__':
     pdf_path = "invoice_with_embedded_xml.pdf"
 
-    temp_pdf_path= "PDF/invoice.pdf"
-    xml_path = "Data/invoice_gcp5.xml"  
+    temp_pdf_path= "PDF/11.pdf"
+    xml_path = "Data/invoice_ai.xml"  
 
     pdf_with_xml = PDFWithEmbeddedXML(pdf_path, temp_pdf_path, xml_path)
     pdf_with_xml.embed_xml_in_pdf()
