@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
     <InvoiceNumber>       
-        <cbc:ID>ABCC/LTHSC/JAF/PH-2/GCP5/MP/INVOICE-012</cbc:ID>
+        <cbc:ID>ABCC/LTHSC/JAF/PH-2/GCP5/MP/INVOICE-013</cbc:ID>
         <cbc:IssueDate>05-04-2025</cbc:IssueDate>
         <cbc:LOANo></cbc:LOANo>
         <cbc:PONo>7400061929</cbc:PONo>
@@ -49,16 +49,18 @@
     <cac:InvoiceLine>
         <cbc:ID>1.0</cbc:ID>
         <cbc:InvoicedQuantity >LS  (إل إس)</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="SAR">   154,863.81      </cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="SAR">   154,863.81     </cbc:LineExtensionAmount>
         <cac:TaxTotal>
-           <cbc:TaxAmount currencyID="SAR">   23,229.57         </cbc:TaxAmount>
-           <cbc:RoundingAmount currencyID="SAR">   23,229.57    </cbc:RoundingAmount>
+           <cbc:TaxAmount currencyID="SAR">    23229.57 	     </cbc:TaxAmount>
+           <cbc:RoundingAmount currencyID="SAR">     23229.57   </cbc:RoundingAmount>
         </cac:TaxTotal>
         <cac:Item>
            <cbc:Name> 
-
-               Manpower Supply for Jafurah Gas Compression Plants - 01 (GCP-5) Work for the Month of March 2025 as Per the Attached Certified Work Summary (توريد القوى العاملة لمصانع ضغط الغاز في الجافورة - 01 (GCP-5) العمل لشهر مارس 2025 وفقًا لملخص العمل المعتمد المرفق)				
-
+Manpower Supply for Jafurah Gas Compression Plants - 
+01 (GCP-5) Work for the Month of March 2025 as Per the 
+Attached Certified Work Summary (عناصمل ةلماعلا ىوقلا ديروت 
+ ةروفاجلا يف زاغلا طغض -01 (GCP-5)  سرام رهشل لمعلا 2025 اقفو  
+قفرملا دمتعملا لمعلا صخلمل)
             </cbc:Name>
            <cac:ClassifiedTaxCategory>
               <cbc:ID>S</cbc:ID>
@@ -69,27 +71,27 @@
            </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-           <cbc:PriceAmount currencyID="SAR">   154,863.81 	 </cbc:PriceAmount>
+           <cbc:PriceAmount currencyID="SAR">   154,863.81	 </cbc:PriceAmount>
            <cbc:BaseQuantity unitCode="EA">LS  (إل إس)</cbc:BaseQuantity>
            <cac:AllowanceCharge>
               <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
               <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
               <cbc:Amount currencyID="SAR">0.000000000</cbc:Amount>
-              <cbc:BaseAmount currencyID="SAR"> 154,863.81 </cbc:BaseAmount>
+              <cbc:BaseAmount currencyID="SAR"> 154,863.81  </cbc:BaseAmount>
            </cac:AllowanceCharge>
         </cac:Price>
      </cac:InvoiceLine>
 
      <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="SAR">  154,863.81 </cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="SAR">  154,863.81	</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="SAR">     178,093.38       </cbc:TaxInclusiveAmount>
+        <cbc:LineExtensionAmount currencyID="SAR">   154,863.81  </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR">   154,863.81	</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR">   178,093.38  </cbc:TaxInclusiveAmount>
         <cbc:AllowanceTotalAmount currencyID="SAR">0.00</cbc:AllowanceTotalAmount>
         <cbc:ChargeTotalAmount currencyID="SAR">0.00</cbc:ChargeTotalAmount>
         <cbc:PrepaidAmount currencyID="SAR">0.00</cbc:PrepaidAmount>
-        <cbc:PayableRoundingAmount currencyID="SAR">   178,093.38      </cbc:PayableRoundingAmount>
+        <cbc:PayableRoundingAmount currencyID="SAR">   178,093.38 	 </cbc:PayableRoundingAmount>
         <cbc:RetentionRecovery currencyID="SAR">0.00</cbc:RetentionRecovery>
-        <cbc:PayableAmount  currencyID="SAR">    178,093.38      </cbc:PayableAmount>
+        <cbc:PayableAmount  currencyID="SAR"> 178,093.38   </cbc:PayableAmount>
      </cac:LegalMonetaryTotal>
     
 

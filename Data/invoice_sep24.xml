@@ -2,7 +2,7 @@
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
     <InvoiceNumber>       
         <cbc:ID> AICC/LTHSC/JAF/INVOICE-027 </cbc:ID>
-        <cbc:IssueDate>28-01-2025</cbc:IssueDate>
+        <cbc:IssueDate>29-12-2024</cbc:IssueDate>
         <cbc:LOANo> LTHSC-LOA-JGCP-22-14  </cbc:LOANo>
         <cbc:PONo>  74000-50204/RTT  </cbc:PONo>
         <cbc:ContractNO>NA</cbc:ContractNO>
@@ -13,7 +13,7 @@
     </InvoiceNumber>
     
     <InvoiceDate>
-        <IssueDate>28-01-2025</IssueDate>
+        <IssueDate>29-12-2024</IssueDate>
         <InvoiceReference>
          CIVIL WORKS FOR GCP 01 &amp; PWIS (الأعمال المدنية لـ GCP 01 وPWIS)      
       </InvoiceReference>
