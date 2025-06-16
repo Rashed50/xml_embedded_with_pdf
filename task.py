@@ -23,8 +23,8 @@ class PDFWithEmbeddedXML:
 if __name__ == '__main__':
     pdf_path = "invoice_with_xml.pdf"
 
-    temp_pdf_path= "PDF/Bill Invoice Final Draft Jan'25 & Feb'25 - Revised 21.05.2025.pdf"
-    xml_path = "Data/invoice_jan25.xml"  
+    temp_pdf_path= "PDF/11.pdf"
+    xml_path = "Data/invoice_gcp5.xml"  
 
     pdf_with_xml = PDFWithEmbeddedXML(pdf_path, temp_pdf_path, xml_path)
     pdf_with_xml.embed_xml_in_pdf()
