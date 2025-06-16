@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2" xmlns:sbc="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2" xmlns:sig="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#">
     <InvoiceNumber>       
-        <cbc:ID> AICC/LTHSC/JAF/INVOICE-025 </cbc:ID>
-        <cbc:IssueDate>13-12-2024</cbc:IssueDate>
+        <cbc:ID> AICC/LTHSC/JAF/INVOICE-026 </cbc:ID>
+        <cbc:IssueDate>23-04-2025</cbc:IssueDate>
         <cbc:LOANo> LTHSC-LOA-JGCP-22-14  </cbc:LOANo>
         <cbc:PONo>  74000-50204/RTT  </cbc:PONo>
         <cbc:ContractNO>NA</cbc:ContractNO>
@@ -13,7 +13,7 @@
     </InvoiceNumber>
     
     <InvoiceDate>
-        <IssueDate>13-12-2024</IssueDate>
+        <IssueDate>23-04-2025</IssueDate>
         <InvoiceReference>
          CIVIL WORKS FOR GCP 01 &amp; PWIS (الأعمال المدنية لـ GCP 01 وPWIS)      
       </InvoiceReference>
@@ -52,29 +52,25 @@
          </cbc:NatureOfGoodsOrServices>
         <cbc:Quantity>LS  (إل إس)</cbc:Quantity>
         <cbc:Unit>01 (واحد)</cbc:Unit>
-        <cbc:UnitPrice>    271,527.69 		 </cbc:UnitPrice>
-        <cbc:TaxableAmount>  271,527.69 	 	</cbc:TaxableAmount>
+        <cbc:UnitPrice>    283,911.68		 </cbc:UnitPrice>
+        <cbc:TaxableAmount>  283,911.68	 	 	</cbc:TaxableAmount>
         <cbc:TaxRate>15.00%</cbc:TaxRate>
-        <cbc:TaxAmount>    40,729.15 		</cbc:TaxAmount>
-        <cbc:TotalWithVAT>   312,256.84 	</cbc:TotalWithVAT>
+        <cbc:TaxAmount>   42,586.75	</cbc:TaxAmount>
+        <cbc:TotalWithVAT>   326,498.43 	</cbc:TotalWithVAT>
         <cbc:ItemSubtotal> </cbc:ItemSubtotal>
     </cac:LineItems>
  
    <cac:InvoiceLine>
         <cbc:ID>1.0</cbc:ID>
         <cbc:InvoicedQuantity >LS  (إل إس)</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="SAR">    400,603.83 	 </cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="SAR">    283,911.68	 </cbc:LineExtensionAmount>
         <cac:TaxTotal>
-           <cbc:TaxAmount currencyID="SAR">   60,090.57  </cbc:TaxAmount>
+           <cbc:TaxAmount currencyID="SAR">  42,586.75	  </cbc:TaxAmount>
            <cbc:RoundingAmount currencyID="SAR"> </cbc:RoundingAmount>
         </cac:TaxTotal>
         <cac:Item>
            <cbc:Name>
-       Civil Works for Jafurah Gas Compression Plants - 01 
-(GCP-1) Work for the Month of September 2024 as Per 
-the Attached Certified Work Summary (تاطحمل ةيندملا لامعلأا 
- ةروفاجلا يف زاغلا طغض -01 (GCP-1)  ربمتبس رهش لامعأ 2024 بسح  
-قفرملا دمتعملا لمعلا صخلم)
+             Civil Works for Jafurah Gas Compression Plants - 01 (GCP-1) Work for the Month of December 2024 as Per the Attached Certified Work Summary (الأعمال المدنية لمحطات ضغط الغاز في الجافورة - 01 (GCP-1) أعمال شهر ديسمبر 2024 وفقًا لملخص العمل المعتمد المرفق)
           </cbc:Name>
            <cac:ClassifiedTaxCategory>
               <cbc:ID>S</cbc:ID>
@@ -85,27 +81,27 @@ the Attached Certified Work Summary (تاطحمل ةيندملا لامعلأا
            </cac:ClassifiedTaxCategory>
         </cac:Item>
         <cac:Price>
-           <cbc:PriceAmount currencyID="SAR">   400,603.83 </cbc:PriceAmount>
+           <cbc:PriceAmount currencyID="SAR">  283,911.68 </cbc:PriceAmount>
            <cbc:BaseQuantity unitCode="EA">LS  (إل إس)</cbc:BaseQuantity>
            <cac:AllowanceCharge>
               <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
               <cbc:MultiplierFactorNumeric>0</cbc:MultiplierFactorNumeric>
               <cbc:Amount currencyID="SAR">0.000000000</cbc:Amount>
-              <cbc:BaseAmount currencyID="SAR">   400,603.83</cbc:BaseAmount>
+              <cbc:BaseAmount currencyID="SAR">  283,911.68 </cbc:BaseAmount>
            </cac:AllowanceCharge>
         </cac:Price>
    </cac:InvoiceLine>
 
      <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="SAR">  400,603.83 </cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="SAR">   400,603.83  </cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="SAR">   460,694.40   </cbc:TaxInclusiveAmount>
+        <cbc:LineExtensionAmount currencyID="SAR"> 283,911.68</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="SAR">  283,911.68 </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="SAR">  326,498.43   </cbc:TaxInclusiveAmount>
         <cbc:AllowanceTotalAmount currencyID="SAR">0.00</cbc:AllowanceTotalAmount>
         <cbc:ChargeTotalAmount currencyID="SAR">0.00</cbc:ChargeTotalAmount>
         <cbc:PrepaidAmount currencyID="SAR">0.00</cbc:PrepaidAmount>
-        <cbc:PayableRoundingAmount currencyID="SAR">0.00</cbc:PayableRoundingAmount>
-        <cbc:RetentionRecovery currencyID="SAR">  40,060.38   </cbc:RetentionRecovery>
-        <cbc:PayableAmount  currencyID="SAR">  420,634.02   </cbc:PayableAmount>
+        <cbc:PayableRoundingAmount currencyID="SAR"> 326,498.43 </cbc:PayableRoundingAmount>
+        <cbc:RetentionRecovery currencyID="SAR">  28,391.17	   </cbc:RetentionRecovery>
+        <cbc:PayableAmount  currencyID="SAR"> 298,107.26  </cbc:PayableAmount>
      </cac:LegalMonetaryTotal>
     
     <cac:Bank>
